@@ -1,0 +1,84 @@
+body {
+  background-color: beige;
+}
+
+.Container-1 {
+  width: 800px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Container-1 p {
+  margin-top: -10px;
+  font-size: 18px;
+}
+.Container-1 h1 {
+  font-size: 40px;
+  color: blue;
+}
+.Container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Container-2 {
+  height: 350px;
+  width: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 50px;
+  border: 1px solid black;
+  background-color: aliceblue;
+}
+.Container-2 input,
+button {
+  height: 40px;
+  width: 285px;
+  margin: 2px;
+  border: 1px solid black;
+}
+form a {
+  margin-left: 80px;
+}
+.temp1 {
+  background-color: blue;
+  margin-top: 10px;
+}
+.temp2 {
+  background-color: green;
+  margin-top: 30px;
+}
+form {
+  margin-left: 18px;
+}
+.modal {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-content {
+  height: 350px;
+  width: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  background-color: aliceblue;
+}
+.modal-content input {
+  height: 40px;
+  width: 285px;
+  margin: 2px;
+  border: 1px solid black;
+}
+.modal-content button {
+  background-color: blue;
+}
